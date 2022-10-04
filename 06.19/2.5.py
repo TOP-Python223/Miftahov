@@ -1,0 +1,1 @@
+print([chr(n + 1072) for n in range(int(input('Введите число: ')))])
