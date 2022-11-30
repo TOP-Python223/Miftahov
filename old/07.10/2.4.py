@@ -43,7 +43,7 @@ m_list = [float(rr(1, 40)) for _ in range(rr(6, 15))]
 m_tuple = tuple(float(rr(3, 25)) for _ in range(rr(4, 30)))
     
 
-# stdint
+# stdin
 pprint(averages([1, 2, 3, 4.23]), sort_dicts=False)
 # Изменил '0 2 0.12 1' на '1 2 0.12 1', т.к. на 0 делить нельзя
 pprint(averages('1 2 0.12 1'), sort_dicts=False)
